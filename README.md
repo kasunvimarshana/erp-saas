@@ -4,11 +4,23 @@ Dynamic, enterprise-grade SaaS ERP, featuring a modular, maintainable architectu
 
 ## About This Repository
 
-This repository contains comprehensive analysis and documentation of ERP SaaS architectural patterns, design decisions, and implementation strategies based on the **multi-x-erp-saas** repository and related projects by kasunvimarshana.
+This repository contains comprehensive analysis and documentation of ERP SaaS architectural patterns, design decisions, and implementation strategies based on **three production-grade repositories** by kasunvimarshana:
+- [multi-x-erp-saas](https://github.com/kasunvimarshana/multi-x-erp-saas) - Production-ready with 96.6% test coverage
+- [GlobalSaaS-ERP](https://github.com/kasunvimarshana/GlobalSaaS-ERP) - AI-agent-oriented modular architecture
+- [UnityERP-SaaS](https://github.com/kasunvimarshana/UnityERP-SaaS) - Manufacturing and warehouse management focus
 
 ## Documentation
 
-This repository provides five comprehensive documents for analyzing and implementing ERP SaaS platforms:
+This repository provides six comprehensive documents for analyzing and implementing ERP SaaS platforms:
+
+### 🔍 [Cross-Repository Analysis](./CROSS_REPOSITORY_ANALYSIS.md) **NEW**
+Comprehensive comparative analysis of all three ERP SaaS repositories:
+- Side-by-side feature comparison matrix
+- Module-by-module analysis across all repos
+- Architectural approach differences
+- Strengths and use case recommendations
+- Integration strategies for combining best features
+- Commit history and development insights
 
 ### 📊 [Repository Analysis](./REPOSITORY_ANALYSIS.md)
 Complete analysis of the multi-x-erp-saas repository including:
@@ -99,17 +111,58 @@ High-level overview and strategic recommendations:
 
 ## Referenced Repositories
 
-### Primary Repository
-- **[multi-x-erp-saas](https://github.com/kasunvimarshana/multi-x-erp-saas)** - Production-ready ERP SaaS platform
-  - Status: Production-ready with 96.6% test coverage
-  - 100+ API endpoints
-  - Comprehensive documentation
-  - Modern tech stack (Laravel 12, Vue 3, PHP 8.3+)
+### Primary Repositories Analyzed
 
-### Related Repositories
-- **[erp-saas-core](https://github.com/kasunvimarshana/erp-saas-core)** - Similar modular ERP platform
-- **GlobalSaaS-ERP** - Not found (may be private or differently named)
-- **UnityERP-SaaS** - Not found (may be private or differently named)
+#### 1. [multi-x-erp-saas](https://github.com/kasunvimarshana/multi-x-erp-saas)
+**Status**: ✅ Production-Ready (96.6% Test Coverage)  
+**Last Updated**: February 4, 2026  
+**Focus**: Complete ERP SaaS with 100+ API endpoints
+
+**Key Features**:
+- 96.6% test coverage (industry-leading)
+- 100+ fully implemented API endpoints
+- Complete Vue.js 3 frontend with PWA support
+- Native web push notifications with service workers
+- Real-time Server-Sent Events (SSE)
+- 8 core modules fully operational
+- Comprehensive production deployment guides
+
+#### 2. [GlobalSaaS-ERP](https://github.com/kasunvimarshana/GlobalSaaS-ERP)
+**Status**: ✅ Production Foundation Complete  
+**Last Updated**: February 2, 2026  
+**Focus**: ERP-grade modular architecture with AI agent integration
+
+**Key Features**:
+- Most extensive documentation (158KB README)
+- Advanced AI agent integration (137KB AGENTS.md)
+- Multiple Copilot instruction sets for AI-assisted development
+- 12+ core modules designed and scaffolded
+- Detailed architectural contracts
+- ERP-grade modular blueprints
+
+#### 3. [UnityERP-SaaS](https://github.com/kasunvimarshana/UnityERP-SaaS)
+**Status**: ✅ Advanced Features Implemented  
+**Last Updated**: February 3, 2026  
+**Focus**: Manufacturing, warehouse management, and advanced pricing
+
+**Key Features**:
+- Complete manufacturing module with BOM and work orders
+- Advanced warehouse management (transfers, pickings, putaways)
+- Sophisticated taxation system with multi-jurisdiction support
+- Dynamic pricing engine with complex rules
+- Event-driven notification system
+- Visual architecture documentation
+
+### Repository Comparison Quick Reference
+
+| Aspect | multi-x-erp-saas | GlobalSaaS-ERP | UnityERP-SaaS |
+|--------|------------------|----------------|---------------|
+| **Test Coverage** | ✅ 96.6% | Foundation | Implementation |
+| **Frontend Maturity** | ✅ Complete + PWA | Basic | Moderate |
+| **Documentation** | Implementation-focused | ✅ AI-agent-oriented (158KB) | Visual architecture |
+| **Manufacturing** | Partial | Designed | ✅ Complete |
+| **Warehouse Mgmt** | Basic | Designed | ✅ Advanced |
+| **Best For** | Production deployment | AI-assisted dev | Manufacturing ops |
 
 ## Use Cases
 
