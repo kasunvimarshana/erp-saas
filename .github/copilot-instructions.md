@@ -387,3 +387,42 @@ When working with this repository:
 7. Emphasize Clean Architecture and best practices
 8. Compare and contrast Laravel vs Odoo approaches when relevant
 9. Always provide context and rationale for design decisions
+
+## Working with Documentation Files
+
+When asked to enhance, update, or create documentation:
+
+### Before Making Changes
+1. **Read the entire relevant document** to understand context
+2. **Check related documents** for cross-references and consistency
+3. **Review existing patterns** to maintain consistency
+4. **Understand the target audience** for the section you're updating
+
+### While Making Changes
+1. **Preserve existing structure** unless restructuring is explicitly requested
+2. **Maintain formatting consistency** with the rest of the document
+3. **Use proper markdown syntax** with language tags for code blocks
+4. **Add cross-references** to related documents when appropriate
+5. **Keep code examples complete and accurate** (no pseudo-code)
+6. **Update table of contents** if adding new major sections
+
+### After Making Changes
+1. **Verify all internal links** still work correctly
+2. **Check for broken cross-references** in other documents
+3. **Ensure consistent terminology** across all documents
+4. **Update README.md** if adding significant new content
+5. **Review for technical accuracy** of all code examples
+
+### When Adding New Analysis
+1. **Compare with existing analysis** to avoid duplication
+2. **Place content in the appropriate document** (see Documentation Structure section)
+3. **Add references** to source repositories or official documentation
+4. **Include both "Why" (rationale) and "How" (implementation)**
+5. **Provide practical examples** from the analyzed repositories
+
+### Common Documentation Tasks
+- **Updating code examples**: Ensure syntax highlighting, complete context, and accuracy
+- **Adding new sections**: Follow the document's existing structure pattern
+- **Cross-referencing**: Use relative links like `./DOCUMENT.md#section`
+- **Comparing approaches**: Use tables or side-by-side code blocks
+- **Adding patterns**: Include explanation, code example, use cases, and pros/cons
